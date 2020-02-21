@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sketchbook with Voices</title>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+<div class="fifteen">
+  <pre>
+                                        The first thing that has to be broken down is your relationship
+                                        to authority. Your insecurity could possibly be the wedge
+                                        that opens up your perspective on what you think is possible
+                                        for you to do.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate fifteensub"><span>15</span>                              ROSS BLECKNER</div>
+</pre>
+
+<div class="twentythree">
+  <pre>
+                                Draw a fart.
+                                Draw cocks and cunts.
+                                Each other's or your own.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate twentythreesub"><span>23</span>                              STEVEN GIANAKOS</div>
+</pre>
+
+<div class="fourtyfive">
+  <pre>
+                  The reason for working has to come from <span class="italic"> you </span>, from <span class="italic"> your </span>
+                  psyche, <span class="italic"> your </span> will, <span class="italic"> your </span> ambition. The motivation has to be a
+                  personal one. You cannot be derivative. You cannot go
+                  bellow that.
+
+                  What I want to be is proud of you, even if you are no good.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate fourtyfivesub"><span>45</span>                             LOUISE BOURGEOIS</div>
+</pre>
+
+<div class="oneseventysix">
+  <pre>
+  When involved with abstractions, refrain, as much as possible,
+  from personal symbolism, unless your point is gossip...
+  Everyone knows size counts.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate oneseventysixsub"><span>176</span>                             LARRY RIVERS &#38; FRANK O'HARA</div>
+</pre>
+
+<div class="fiftytwo">
+  <pre>
+  There are so many different reasons to be in New York City,
+  but they all have to do with going out the door.
+
+
+
+
+
+
+  <video src="images/pizzarat.mp4" controls> </video>
+</pre>
+</div>
+
+<pre>
+<div class="rotate fiftytwosub"><span>52</span>                             JANET FISH</div>
+</pre>
+
+<div class="fourteen">
+  <pre>
+        Close your eyes and think really hard... What do you want
+        to do? You want to go out or you want to stay home? Go to
+        the movies or you want to eat? Close your eyes again.
+        Which painter do you want to be: <a href="https://www.google.com/search?q=vermeer&oq=ve&aqs=chrome.0.69i59l2j69i57j0l3.688j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><span class+"italic">Vermeer</font></a></span> or <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=rembrandt" target="_blank"><span class+"italic">Rembrant</font></a></span>?
+        Quick! Quick!
+  </pre>
+</div>
+
+<div class="vermeerbutton">
+<a href="page6.html"> <img src="images/vermeer.png"> </a>
+</div>
+<div class="rembrantbutton">
+<a href="page7.html"> <img src="images/rembrant.png"> </a>
+</div>
+
+<pre>
+<div class="rotate fourteensub"><span>14</span>                             SUSAN ROTHENBERG</div>
+</pre>
+
+<div id="drawingWorldtwo"></div>
+
+<!-- put me at the bottom of the body tag (in html pages), the last thing.  -->
+<!-- copy the JS from here -->
+<script src="p5.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+var sketch = function(p) {
+  p.setup = function(){
+    p.createCanvas(300, 300); //you can change the size here
+  }
+  p.draw = function(){
+    if(p.mouseIsPressed){
+      p.line(p.mouseX,p.mouseY,p.pmouseX,p.pmouseY)
+    }
+  }
+};
+new p5(sketch, 'drawingWorldtwo'); // make sure this is the same 'id' as the div you want the drawing to go into.
+</script>
+<!-- copy the JS to here-->
+
+  </body>
+</html>

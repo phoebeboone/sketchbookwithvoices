@@ -1,0 +1,710 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  font-size: 09px;
+}
+
+pre {
+  font-family: arial;
+  font-size: 11px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+/* PAGE 1 *********************************************************************/
+#drawingWorldone {
+  border: 1px solid black;
+  position: absolute;
+  top: 1360px;
+  left: 1714px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.enterone {
+  width: 70px;
+  position: absolute;
+  top: 203.797px;
+  left: 1924.78px;
+}
+
+.textone {
+  width: 381px;
+  position: absolute;
+  top: 132px;
+  left: 1848.14px;
+}
+
+.title-item {
+  width: 381px;
+  position: absolute;
+  top: 99.1406px;
+  left: 38.6562px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.thirteen {
+  width: 235px;
+  position: absolute;
+  top: 502.359px;
+  left: 166.391px;
+}
+
+.thirteensub {
+  width: 325px;
+  position: absolute;
+  top: 694.047px;
+  left: 480.688px;
+}
+
+.thirteensub span {
+  margin-right: 50px;
+}
+
+.thirtyfour {
+  width: 446px;
+  position: absolute;
+  top: 228.031px;
+  left: 543.938px;
+}
+
+.thirtyfoursub {
+  width: 235px;
+  position: absolute;
+  top: 685.516px;
+  left: 594.547px;
+}
+
+.thirtyfourimage {
+  width: 416px;
+  position: absolute;
+  top: 307.359px;
+  left: 740.016px;
+}
+
+.thirtyfoursub span {
+  margin-right: 50px;
+}
+
+.fourtyone {
+  width: 235px;
+  position: absolute;
+  top: 403.203px;
+  left: 1201.75px;
+}
+
+.fourtyonesub {
+  width: 235px;
+  position: absolute;
+  top: 667.609px;
+  left: 1619.19px;
+}
+
+.fourtyonesub span {
+  margin-right: 50px;
+}
+
+.thirtyfive {
+  width: 235px;
+  position: absolute;
+  top: 1222.84px;
+  left: 12.6406px;
+}
+
+.thirtyfivesub {
+  width: 235px;
+  position: absolute;
+  top: 1421.14px;
+  left: 430.094px;
+}
+
+.thirtyfivesub span {
+  margin-right: 50px;
+}
+
+.seventeen {
+  width: 235px;
+  position: absolute;
+  top: 575.062px;
+  left: 1897.5px;
+}
+
+.seventeensub {
+  width: 235px;
+  position: absolute;
+  top: 775.25px;
+  left: 1771px;
+}
+
+.seventeensub span {
+  margin-right: 50px;
+}
+
+.thirty {
+  width: 235px;
+  position: absolute;
+  top: 1064.2px;
+  left: 809.594px;
+}
+
+.thirtysub {
+  width: 235px;
+  position: absolute;
+  top: 1308.77px;
+  left: 657.797px;
+}
+
+.thirtysub span {
+  margin-right: 50px;
+}
+
+.thirtynine {
+  width: 235px;
+  position: absolute;
+  top: 1322px;
+  left: 1707.75px;
+}
+
+.thirtyninesub {
+  width: 235px;
+  position: absolute;
+  top: 1612.83px;
+  left: 1998.69px;
+}
+
+.thirtyninesub span {
+  margin-right: 50px;
+}
+
+.fiftyfour {
+  width: 235px;
+  position: absolute;
+  top: 72.7031px;
+  left: 1725.14px;
+}
+
+.fiftyfoursub {
+  width: 269px;
+  position: absolute;
+  top: 310.656px;
+  left: 1568.59px;
+}
+
+.fiftyfoursub span {
+  margin-right: 50px;
+}
+
+/* PAGE 2 *********************************************************************/
+#drawingWorldtwo {
+  border: 1px solid black;
+  position: absolute;
+  top: 212px;
+  left: 971px;
+}
+
+.vermeerbutton {
+  width: 70px;
+  position: absolute;
+  top: 900px;
+  left: 1905.27px;
+}
+
+.rembrantbutton {
+  width: 70px;
+  position: absolute;
+  top: 900px;
+  left: 1997.27px;
+}
+
+.fifteen {
+  width: 235px;
+  position: absolute;
+  top: 26.4375px;
+  left: 25.2969px;
+}
+
+.fifteensub {
+  width: 235px;
+  position: absolute;
+  top: 304.047px;
+  left: 518.641px;
+}
+
+.fifteensub span {
+  margin-right: 50px;
+}
+
+.twentythree {
+  width: 235px;
+  position: absolute;
+  top: 152.016px;
+  left: 872.844px;
+}
+
+.twentythreesub {
+  width: 235px;
+  position: absolute;
+  top: 370.156px;
+  left: 1270.641px;
+}
+
+.twentythreesub span {
+  margin-right: 50px;
+}
+
+.fourtyfive {
+  width: 235px;
+  position: absolute;
+  top: 46.2656px;
+  left: 1585.09px;
+}
+
+.fourtyfivesub {
+  width: 235px;
+  position: absolute;
+  top: 479.719px;
+  left: 1511.89px;
+}
+
+.fourtyfivesub span {
+  margin-right: 50px;
+}
+
+.oneseventysix {
+  width: 235px;
+  position: absolute;
+  top: 799.797px;
+  left: 1024.64px;
+}
+
+.oneseventysixsub {
+  width: 335px;
+  position: absolute;
+  top: 1084.03px;
+  left: 796.938px;
+}
+
+.oneseventysixsub span {
+  margin-right: 50px;
+}
+
+.fiftytwo {
+  width: 235px;
+  position: absolute;
+  top: 475.906px;
+  left: 240.344px;
+}
+
+.fiftytwosub {
+  width: 235px;
+  position: absolute;
+  top: 696.094px;
+  left: 771.641px;
+}
+
+.fiftytwosub span {
+  margin-right: 50px;
+}
+
+.fourteen {
+  width: 235px;
+  position: absolute;
+  top: 694.047px;
+  left: 1821.59px;
+}
+
+.fourteensub {
+  width: 245px;
+  position: absolute;
+  top: 971.656px;
+  left: 2251.69px;
+}
+
+.fourteensub span {
+  margin-right: 50px;
+}
+
+/* PAGE 3 *********************************************************************/
+#drawingWorldthree {
+  border: 1px solid black;
+  position: absolute;
+  top: 922px;
+  left: 1246px;
+}
+
+.fourtyeight {
+  width: 235px;
+  position: absolute;
+  top: 594.891px;
+  left: 50.5938px;
+}
+
+.fourtyeightsub {
+  width: 328px;
+  position: absolute;
+  top: 847.391px;
+  left: 480.688px;
+}
+
+.fourtyeightsub span {
+  margin-right: 50px;
+}
+
+.fiftyseven {
+  width: 235px;
+  position: absolute;
+  top: 211.516px;
+  left: 455.391px;
+}
+
+.fiftysevensub {
+  width: 235px;
+  position: absolute;
+  top: 337.766px;
+  left: 743.594px;
+}
+
+.fiftysevensub span {
+  margin-right: 50px;
+}
+
+.fiftynine {
+  width: 235px;
+  position: absolute;
+  top: 284.219px;
+  left: 1125.84px;
+}
+
+.fiftyninesub {
+  width: 235px;
+  position: absolute;
+  top: 601.5px;
+  left: 1028.44px;
+}
+
+.fiftyninesub span {
+  margin-right: 50px;
+}
+
+.fiftyfive {
+  width: 235px;
+  position: absolute;
+  top: 581.672px;
+  left: 1973.39px;
+}
+
+.fiftyfivesub {
+  width: 330px;
+  position: absolute;
+  top: 905.562px;
+  left: 2378.19px;
+}
+
+.fiftyfivesub span {
+  margin-right: 50px;
+}
+
+.sixtyeight {
+  width: 235px;
+  position: absolute;
+  top: 13.2188px;
+  left: 1733.05px;
+}
+
+.sixtyeightsub {
+  width: 235px;
+  position: absolute;
+  top: 251.172px;
+  left: 2036.64px;
+}
+
+.sixtyeightsub span {
+  margin-right: 50px;
+}
+
+.seventyseven {
+  width: 235px;
+  position: absolute;
+  top: 872.516px;
+  left: 1239.69px;
+}
+
+.seventysevensub {
+  width: 235px;
+  position: absolute;
+  top: 1116.109px;
+  left: 1526.44px;
+}
+
+.seventysevensub span {
+  margin-right: 50px;
+}
+
+.fifty {
+  width: 253px;
+  position: absolute;
+  top: 251.172px;
+  left: 2632.45px;
+}
+
+.fiftysub {
+  width: 249px;
+  position: absolute;
+  top: 390.641px;
+  left: 3301.64px;
+}
+
+.fiftyimage {
+  width: 713px;
+  position: absolute;
+  top: 310.656px;
+  left: 2647.64px;
+}
+
+.fiftysub span {
+  margin-right: 50px;
+}
+
+/* PAGE 4 *********************************************************************/
+#drawingWorldfour {
+  border: 1px solid black;
+  position: absolute;
+  top: 923px;
+  left: 1322px;
+}
+
+.entertwo {
+  width: 70px;
+  position: absolute;
+  top: 1226px;
+  left: 1554.17px;
+}
+
+.sixtysix {
+  width: 235px;
+  position: absolute;
+  top: 224.734px;
+  left: 683.094px;
+}
+
+.sixtysixsub {
+  width: 334px;
+  position: absolute;
+  top: 489.125px;
+  left: 1265px;
+}
+
+.sixtysiximage {
+  width: 642px;
+  position: absolute;
+  top: 330.5px;
+  left: 695.75px;
+}
+
+.sixtysixsub span {
+  margin-right: 50px;
+}
+
+.fiftysix {
+  width: 235px;
+  position: absolute;
+  top: 13.2188px;
+  left: 25.2969px;
+}
+
+.fiftysixsub {
+  width: 278px;
+  position: absolute;
+  top: 158.625px;
+  left: 480.688px;
+}
+
+.fiftysixsub span {
+  margin-right: 50px;
+}
+
+.fiftyeight {
+  width: 235px;
+  position: absolute;
+  top: 627.938px;
+  left: 101.188px;
+}
+
+.fiftyeightsub {
+  width: 235px;
+  position: absolute;
+  top: 859.297px;
+  left: -101.188px;
+}
+
+.fiftyeightsub span {
+  margin-right: 50px;
+}
+
+.seventy {
+  width: 235px;
+  position: absolute;
+  top: 72.7031px;
+  left: 1644.5px;
+}
+
+.seventysub {
+  width: 235px;
+  position: absolute;
+  top: 304.047px;
+  left: 1467.39px;
+}
+
+.seventysub span {
+  margin-right: 50px;
+}
+
+.eightyeight {
+  width: 235px;
+  position: absolute;
+  top: 872.516px;
+  left: 1302.94px;
+}
+
+.eightyeightsub {
+  width: 235px;
+  position: absolute;
+  top: 1110.47px;
+  left: 1846.89px;
+}
+
+.eightyeightsub span {
+  margin-right: 50px;
+}
+
+/* PAGE 5 *********************************************************************/
+.done {
+  width: 70px;
+  position: absolute;
+  top: 185px;
+  left: 1479.27px;
+}
+
+.seventythree {
+  width: 235px;
+  position: absolute;
+  top: 211.516px;
+  left: 227.688px;
+}
+
+.seventythreesub {
+  width: 328px;
+  position: absolute;
+  top: 482.516px;
+  left: 670.438px;
+}
+
+.seventythreesub span {
+  margin-right: 50px;
+}
+
+.onefourtyseven {
+  width: 235px;
+  position: absolute;
+  top: 575.062px;
+  left: 69.688px;
+}
+
+.onefourtysevensub {
+  width: 235px;
+  position: absolute;
+  top: 727.094px;
+  left: 643.688px;
+}
+
+.onefourtysevensub span {
+  margin-right: 50px;
+}
+
+.oneseventyone {
+  width: 235px;
+  position: absolute;
+  top: 19.8281px;
+  left: 632.5px;
+}
+
+.oneseventyonesub {
+  width: 235px;
+  position: absolute;
+  top: 237.953px;
+  left: 1049.94px;
+}
+
+.oneseventyonesub span {
+  margin-right: 50px;
+}
+
+.fourtyseven {
+  width: 235px;
+  position: absolute;
+  top: 753.531px;
+  left: 936.094px;
+}
+
+.fourtysevensub {
+  width: 235px;
+  position: absolute;
+  top: 998.109px;
+  left: 796.938px;
+}
+
+.fourtysevensub span {
+  margin-right: 50px;
+}
+
+.oneseventynine {
+  width: 235px;
+  position: absolute;
+  top: 363.547px;
+  left: 1473.25px;
+}
+
+.oneseventyninesub {
+  width: 235px;
+  position: absolute;
+  top: 563.172px;
+  left: 1275.14px;
+}
+
+.oneseventyninesub span {
+  margin-right: 50px;
+}
+
+.seventyfive {
+  width: 235px;
+  position: absolute;
+  top: 85.9219px;
+  left: 1429.44px;
+}
+
+.seventyfivesub {
+  width: 270px;
+  position: absolute;
+  top: 330.5px;
+  left: 1884.84px;
+}
+
+.seventyfivesub span {
+  margin-right: 50px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sketchbook with Voices</title>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+<div class="fourtyeight">
+  <pre>
+  Think of a big color - who cares if people call you Rothko.
+  Release your childhood. Release it -
+  </pre>
+  <!-- color wheel here -->
+</div>
+
+<pre>
+<div class="rotate fourtyeightsub"><span>48</span>                              LARRY RIVERS &#38; FRANK O'HARA</div>
+</pre>
+
+<div class="fiftyseven">
+  <pre>
+  Take a video camera. Make something up.
+  For one minute.
+  Identify yourself for one minute.
+  In front of the camera.
+
+  See how you show yourself and see what we see.
+  </pre>
+  <!-- box with camera to turn on to see yourself -->
+</div>
+
+<pre>
+<div class="rotate fiftysevensub"><span>57</span>                             LYNDA BENGILS</div>
+</pre>
+
+<div class="fiftynine">
+  <pre>
+      There are five major ideas dealing with flat design. First, all
+      spaces are dealt with equally on the surface. Second, there
+      is existential space, or Buddhist space, which is indeter-
+      minate, indefinite space. It's the space of the Universe, the
+      Void, and everything is placed in it. Third, then, there is the
+      opposite: constructed, measuring space, as in Renaissance
+      perspective. The fourth is the idea of light as the primary
+      statement of form.
+
+      The fifth way of working is expressionistically, which may or
+      may not take into account everything.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate fiftyninesub"><span>59</span>                              PHILIP PEARLSTEIN</div>
+</pre>
+
+<div class="fiftyfive">
+  <pre>
+  Do you hear them saying painting is action? We say paintng is
+  the timid appraisal of yourself by lions.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate fiftyfivesub"><span>55</span>                              LARRY RIVERS &#38; FRANK O'HARA</div>
+</pre>
+
+<div class="sixtyeight">
+  <pre>
+                It is not what the world is like.
+                It is what the world is like to be seen.
+                It is what the world is like to be thought.
+                What the world is like to be made.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate sixtyeightsub"><span>68</span>                             GARY STEPHAN</div>
+</pre>
+
+<div class="seventyseven">
+  <pre>
+  Draw what's right in front of you. Draw the room, the
+  neighborhood, the world.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate seventysevensub"><span>77</span>                             JUDY PFAFF</div>
+</pre>
+
+<div class="fifty">
+  <pre>
+  Do something about. . .<a href="page4.html"><span class+"italic">ROMANCE</font></a></span>.
+  </pre>
+</div>
+<div>
+  <img class="fiftyimage" src="images/romance.jpg">
+  <!-- <a href="page4.html"> <img src="images/romance.png"> </a> -->
+</div>
+
+<pre>
+<div class="rotate fiftysub"><span>50</span>                              LYNDA BENGILS</div>
+</pre>
+
+<div id="drawingWorldthree"></div>
+
+<!-- put me at the bottom of the body tag (in html pages), the last thing.  -->
+<!-- copy the JS from here -->
+<script src="p5.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+var sketch = function(p) {
+  p.setup = function(){
+    p.createCanvas(300, 300); //you can change the size here
+  }
+  p.draw = function(){
+    if(p.mouseIsPressed){
+      p.line(p.mouseX,p.mouseY,p.pmouseX,p.pmouseY)
+    }
+  }
+};
+new p5(sketch, 'drawingWorldthree'); // make sure this is the same 'id' as the div you want the drawing to go into.
+</script>
+<!-- copy the JS to here-->
+
+  </body>
+</html>

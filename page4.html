@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sketchbook with Voices</title>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+<div class="sixtysix">
+  <pre>
+    They say your walls should look no different than your work,
+    but that is only a feeble prediction of the future. We know the
+    ego is the true maker of history, and if it isn't, it should be no
+    concern of yours.
+  </pre>
+</div>
+<div>
+  <img class="sixtysiximage" src="images/wallpainting.jpg">
+</div>
+
+<pre>
+<div class="rotate sixtysixsub"><span>66</span>                             LARRY RIVERS &#38; FRANK O'HARA</div>
+</pre>
+
+<div class="fiftysix">
+  <pre>
+        Let me first announce a very modest frame of mind. I've got
+        the declamatory stance, moving my hand...
+
+        I saw somebody. It was two days ago. That was on First
+        Avenue. A phone booth. Then this... Talking to somebody
+        in a phone booth and he was looking straight and he was
+        gesturing. That's not unusual. It struck me because I'd seen
+        a couple of other things...
+
+        I'd seen these pigeons and they were bathing... you know,
+        a sylvan romantic scene, bathing birds and bathing
+        nymphs... but it was slop! Thinned-out garbage that they
+        were bathing in with enthusiasm!
+
+        Then this private phone conversation excluding everything
+        except the person in the telephone booth but which
+        established the person he was talking to like a hologram
+        that no one else sees.
+
+        So I look up and see a helicopter. It was the day after
+        <span class="italic">A-Team </span> If I see a helicopter, that clicks on television. It's
+        an association that was new to me as something I could
+        recognize as a connection, not a metaphor but what it's
+        made out of...
+
+        OK, the helicopter is concentrated. It's small. It's got a
+        certain figure like a letter. It means something. So it means
+        <span class="italic">television. </span>
+
+        Three trifles stacked up together that stuck in my mind.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate fiftysixsub"><span>56</span>                             RICHARD ARTSCHWAGER</div>
+</pre>
+
+<div class="fiftyeight">
+  <pre>
+  Make a sculpture in a way that you speak, as a projection
+  that dissipates.
+  </pre>
+</div>
+
+<pre>
+<div class="rotate fiftyeightsub"><span>58</span>                             DENNIS OPPENHEIM</div>
+</pre>
+
+<div class="seventy">
+  <pre>
+                What does "modern" look like?
+                What does "person" look like?
+  </pre>
+  <!-- upload "modern" picture botton here -->
+  <!-- upload "person" picture botton here -->
+</div>
+
+<pre>
+<div class="rotate seventysub"><span>70</span>                              LAWRENCE WEINER</div>
+</pre>
+
+<div class="eightyeight">
+  <pre>
+      Paint ethereal things, like weather conditions. Paint ice turning
+      to steam.
+  </pre>
+</div>
+
+<div class="entertwo">
+<a href="page5.html"> <img src="images/enter.png"> </a>
+</div>
+
+<div id="drawingWorldfour"></div>
+
+<!-- put me at the bottom of the body tag (in html pages), the last thing.  -->
+<!-- copy the JS from here -->
+<script src="p5.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+var sketch = function(p) {
+  p.setup = function(){
+    p.createCanvas(300, 300); //you can change the size here
+  }
+  p.draw = function(){
+    if(p.mouseIsPressed){
+      p.line(p.mouseX,p.mouseY,p.pmouseX,p.pmouseY)
+    }
+  }
+};
+new p5(sketch, 'drawingWorldfour'); // make sure this is the same 'id' as the div you want the drawing to go into.
+</script>
+<!-- copy the JS to here-->
+
+<pre>
+<div class="rotate eightyeightsub"><span>88</span>                              ROSS BLECKNER</div>
+</pre>
+
+  </body>
+</html>
